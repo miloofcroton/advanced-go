@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gin-web
-          image: "miloofcroton/gin-web:1.0.0"
+          image: "miloofcroton/gin-web:1.0.1"
           ports:
             - containerPort: 9090
           env:

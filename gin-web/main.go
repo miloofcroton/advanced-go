@@ -10,6 +10,16 @@ import (
 func main() {
 	engine := gin.Default()
 
+	// configuration for static files and templates
+	engine.LoadHTMLGlob("./templates/*.html")
+	engine.StaticFile("/favicon.ico", "./favicon.ico")
+
+	engine.GET("/", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "index.html", gin.H{
+			"title": "Aloha, stranger",
+		})
+	})
+
 	engine.GET("/ping", func(c *gin.Context) {
 		c.String(http.StatusOK, "pong")
 	})
