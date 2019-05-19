@@ -6,9 +6,6 @@ This is a playground for a lot of different go frameworks and tools. I want to c
 
 This is an exploration of [gin-gonic](https://github.com/gin-gonic/gin), an http framework.
 
-This is ran alone.
-
-
 ## consul-web
 
 This is an exploration of [consul] for service discovery and configuration.
