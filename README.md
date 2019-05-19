@@ -8,13 +8,23 @@ This is an exploration of [gin-gonic](https://github.com/gin-gonic/gin), an http
 
 This is ran alone.
 
-## consul-core
 
 ## consul-web
 
 This is an exploration of [consul] for service discovery and configuration.
 
-## simple-web
+## consul-core
 
-## k8s-web
+Run this to use with consul-simple. It's just a barebones setup.
 
+## consul-simple
+
+- run `consul-core` first
+- server has microservice registration with consul
+- client has microservice lookup with consul
+
+## consul-k8s
+
+- start with `kubectl apply -f cluster`
+- server has microservice registration with consul
+- client has microservice lookup with consul
