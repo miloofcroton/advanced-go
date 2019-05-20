@@ -30,7 +30,7 @@ func callEvery(d time.Duration, greeter proto.GreeterClient, f func(time.Time, p
 
 func hello(t time.Time, greeter proto.GreeterClient) {
 	// Call the greeter
-	rsp, err := greeter.Hello(context.TODO(), &proto.HelloRequest{Name: "Leander, calling at " + t.String()})
+	rsp, err := greeter.Hello(context.TODO(), &proto.HelloRequest{Name: "Jack, calling at " + t.String()})
 	if err != nil {
 		if err.Error() == "hystrix: timeout" {
 			fmt.Printf("%s. Insert fallback logic here.\n", err.Error())

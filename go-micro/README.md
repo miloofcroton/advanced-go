@@ -19,7 +19,11 @@ $ docker-compose up
 
 ## Access the Hystrix dashboard
 
-Open a browser at the following URL: http://localhost:9002/hystrix/
+Open a browser at the following URL: `http://localhost:9002/hystrix/`
 
-Add the following URL to monitor: http://go-micro-client:8081/hystrix.stream
+Add the following URL to monitor: `http://go-micro-client:8081/hystrix.stream`
+
+Or, just go here: `http://localhost:9002/hystrix/monitor?stream=http%3A%2F%2Fgo-micro-client%3A8081%2Fhystrix.stream&title=go-micro-client`
+
+The goal here is basically to shield the client from a non-responsive service.
 

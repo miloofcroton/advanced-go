@@ -57,7 +57,7 @@ body:
   "ID": "gin-web-01",
   "Name": "gin-web",
   "Tags": [
-    "cloud-native-go",
+    "advanced-go",
     "v1"
   ],
   "Address": "gin-web-01",
@@ -80,7 +80,7 @@ and for the second service, with everything else the same:
   "ID": "gin-web-02",
   "Name": "gin-web",
   "Tags": [
-    "cloud-native-go",
+    "advanced-go",
     "v1"
   ],
   "Address": "gin-web-02",
@@ -113,7 +113,7 @@ body:
   "ID": "gin-web-01",
   "Name": "Gin Web",
   "Tags": [
-    "cloud-native-go",
+    "advanced-go",
     "v1"
   ],
   "Address": "gin-web-01",

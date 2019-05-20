@@ -43,7 +43,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"ID\": \"gin-web-01\",\r\n  \"Name\": \"gin-web\",\r\n  \"Tags\": [\r\n    \"cloud-native-go\",\r\n    \"v1\"\r\n  ],\r\n  \"Address\": \"gin-web-01\",\r\n  \"Port\": 8080,\r\n  \"EnableTagOverride\": false,\r\n  \"check\": {\r\n    \"id\": \"ping\",\r\n    \"name\": \"HTTP API on port 8080\",\r\n    \"http\": \"http://gin-web-01:8080/ping\",\r\n    \"interval\": \"5s\",\r\n    \"timeout\": \"1s\"\r\n  }\r\n}"
+					"raw": "{\r\n  \"ID\": \"gin-web-01\",\r\n  \"Name\": \"gin-web\",\r\n  \"Tags\": [\r\n    \"advanced-go\",\r\n    \"v1\"\r\n  ],\r\n  \"Address\": \"gin-web-01\",\r\n  \"Port\": 8080,\r\n  \"EnableTagOverride\": false,\r\n  \"check\": {\r\n    \"id\": \"ping\",\r\n    \"name\": \"HTTP API on port 8080\",\r\n    \"http\": \"http://gin-web-01:8080/ping\",\r\n    \"interval\": \"5s\",\r\n    \"timeout\": \"1s\"\r\n  }\r\n}"
 				},
 				"description": ""
 			},
@@ -63,7 +63,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"ID\": \"gin-web-01\",\r\n  \"Name\": \"Gin Web\",\r\n  \"Tags\": [\r\n    \"cloud-native-go\",\r\n    \"v1\"\r\n  ],\r\n  \"Address\": \"gin-web-01\",\r\n  \"Port\": 8080,\r\n  \"EnableTagOverride\": false,\r\n  \"Check\": {\r\n    \"DeregisterCriticalServiceAfter\": \"5m\",\r\n    \"HTTP\": \"http://gin-web-01:8080/ping\",\r\n    \"Interval\": \"10s\",\r\n    \"TTL\": \"15s\"\r\n  }\r\n}"
+					"raw": "{\r\n  \"ID\": \"gin-web-01\",\r\n  \"Name\": \"Gin Web\",\r\n  \"Tags\": [\r\n    \"advanced-go\",\r\n    \"v1\"\r\n  ],\r\n  \"Address\": \"gin-web-01\",\r\n  \"Port\": 8080,\r\n  \"EnableTagOverride\": false,\r\n  \"Check\": {\r\n    \"DeregisterCriticalServiceAfter\": \"5m\",\r\n    \"HTTP\": \"http://gin-web-01:8080/ping\",\r\n    \"Interval\": \"10s\",\r\n    \"TTL\": \"15s\"\r\n  }\r\n}"
 				},
 				"description": ""
 			},
@@ -83,7 +83,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"ID\": \"gin-web-02\",\r\n  \"Name\": \"gin-web\",\r\n  \"Tags\": [\r\n    \"cloud-native-go\",\r\n    \"v1\"\r\n  ],\r\n  \"Address\": \"gin-web-02\",\r\n  \"Port\": 9090,\r\n  \"EnableTagOverride\": false,\r\n  \"check\": {\r\n    \"id\": \"ping\",\r\n    \"name\": \"HTTP API on port 9090\",\r\n    \"http\": \"http://gin-web-02:9090/ping\",\r\n    \"interval\": \"5s\",\r\n    \"timeout\": \"1s\"\r\n  }\r\n}"
+					"raw": "{\r\n  \"ID\": \"gin-web-02\",\r\n  \"Name\": \"gin-web\",\r\n  \"Tags\": [\r\n    \"advanced-go\",\r\n    \"v1\"\r\n  ],\r\n  \"Address\": \"gin-web-02\",\r\n  \"Port\": 9090,\r\n  \"EnableTagOverride\": false,\r\n  \"check\": {\r\n    \"id\": \"ping\",\r\n    \"name\": \"HTTP API on port 9090\",\r\n    \"http\": \"http://gin-web-02:9090/ping\",\r\n    \"interval\": \"5s\",\r\n    \"timeout\": \"1s\"\r\n  }\r\n}"
 				},
 				"description": ""
 			},
@@ -103,7 +103,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"ID\": \"gin-web-01\",\r\n  \"Name\": \"Gin Web\",\r\n  \"Tags\": [\r\n    \"cloud-native-go\",\r\n    \"v1\"\r\n  ],\r\n  \"Address\": \"gin-web-01\",\r\n  \"Port\": 8080,\r\n  \"EnableTagOverride\": false,\r\n  \"Check\": {\r\n    \"DeregisterCriticalServiceAfter\": \"5m\",\r\n    \"HTTP\": \"http://gin-web-01:8080/ping\",\r\n    \"Interval\": \"10s\",\r\n    \"TTL\": \"15s\"\r\n  }\r\n}"
+					"raw": "{\r\n  \"ID\": \"gin-web-01\",\r\n  \"Name\": \"Gin Web\",\r\n  \"Tags\": [\r\n    \"advanced-go\",\r\n    \"v1\"\r\n  ],\r\n  \"Address\": \"gin-web-01\",\r\n  \"Port\": 8080,\r\n  \"EnableTagOverride\": false,\r\n  \"Check\": {\r\n    \"DeregisterCriticalServiceAfter\": \"5m\",\r\n    \"HTTP\": \"http://gin-web-01:8080/ping\",\r\n    \"Interval\": \"10s\",\r\n    \"TTL\": \"15s\"\r\n  }\r\n}"
 				},
 				"description": ""
 			},
