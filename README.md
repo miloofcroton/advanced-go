@@ -43,6 +43,20 @@ Run this to use with consul-simple. It's just a barebones setup.
 
 - uses consul for service discovery
 - implements RPC with ProtoBuf
+  - 1 producer, 2 MOM (one for each direction), 1 consumer
 - uses hystrix
+  - 1 producer, 1 MOM, 1 consumer
 - uses go-micro
+
+### go-rabbitmq
+
+- implements async messaging with work queues and rabbitmq
+  - 1 producer, 1 MOM, n-consumers
+
+### go-kafka
+
+- implements topic-based async pub-sub communication with kafka
+  - 1 producer, n-MOMs, n-consumers
+- implements broadcasting with zookeeper
+  - 1 producer, 1-MOM, 0 to n-consumers
 
